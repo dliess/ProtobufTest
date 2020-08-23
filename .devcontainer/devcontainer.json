@@ -1,0 +1,21 @@
+{
+   "name": "MidiEmBuildEnv",
+   "build": {
+		"dockerfile": "Dockerfile"
+   },
+   "runArgs" : ["--privileged"],
+   "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+   },
+   "extensions": [
+      "eamodio.gitlens",
+      "eugenwiens.bitbake",
+      "ms-vscode.cpptools",
+      "twxs.cmake",
+      "ms-vscode.cmake-tools",
+      "jebbs.plantuml",
+      "plex.vscode-protolint",
+      "zxh404.vscode-proto3",
+      "xaver.clang-format"
+   ]
+}
